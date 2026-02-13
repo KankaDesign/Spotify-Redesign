@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify</title>
+    <link rel="icon" href="images/icons/spotify fav.png" type="image/x-icon">
+
+</head>
+<body>
+
+<!-- navbar -->
+
+<div class="navbar">
+
+    <div class="nav-logo">
+        <img src="images/icons/spotify logo.png" alt="Logo">
+    </div>
+
+    <div class="nav-search">
+        <input type="text" placeholder="  Поиск">
+        <img src="images/icons/search1.png" alt="">
+    </div>
+
+    <div class="nav-buttons">
+        <a href="#" class="nav-button-home">
+            Домой
+        </a>
+
+        <div class="nav-arrowL">
+            <img src="images/icons/arrowL.png" alt="">
+        </div>
+
+        <div class="nav-arrowR">
+            <img src="images/icons/arrowR.png" alt="">
+        </div>
+
+        <div class="nav-ava">
+            <img src="images/icons/ava.png">
+        </div>
+    </div>
+
+</div>
+
+
+<!-- playlist -->
+
+
+<div class="panel" id="panel">
+    
+    <div class="panel-content">
+      <div class="play-buttons">
+
+        <div class="back1">
+          <img src="images/icons/back.png" alt="">
+        </div>
+
+        <div class="play1">
+            <img src="images/icons/play1.png">
+        </div>
+
+        <div class="next1">
+            <img src="images/icons/next.png" alt="">
+        </div>
+
+        <div class="shuffle1">
+            <img src="images/icons/shuffle.png">
+        </div>
+        
+        <div class="circle">
+            <img src="images/icons/circle.png">
+        </div>
+
+        <button id="expandBtn" class="button">
+            <img src="images/covers/ночь и пиксели.jpg" alt="cover">
+        </button>
+
+        <div class="player-line1">
+            <div class="song-name-1">Cold Siemens</div>
+            <div class="artist-name-1">ВПЛАНЕ</div>
+          
+            <div class="player-line1-time-wrapper">
+              <div class="player-line1-time">
+                <img src="images/icons/time1.png" alt="progress bar">
+              </div>
+              <div class="time-stamps">
+                <div class="t1">1:25</div>
+                <div class="t2">2:55</div>
+              </div>
+            </div>
+        </div>
+
+        <div class="volume">
+            <img src="images/icons/volume full.png">
+        </div>
+
+        <div class="volume-line">
+            <img src="images/icons/volume-time1.png">
+        </div>
+
+      </div>
+    </div>
+  
+    <div class="panel-extra">
+      
+        <div class="extra-cover">
+            <img src="images/covers/ночь и пиксели.jpg">
+        </div>
+
+        <div class="extra-line2">
+
+            <div class="extra-text">
+                <div class="t3"> Cold Siemens</div>
+                <div class="t4"> ВПЛАНЕ</div>
+            </div>
+
+            <div class="extra-playline"> 
+                <img src="images/extra/playline.png">
+            </div>
+
+            <div class="extra-time-board">
+                <div class="tb1"> 1:25</div>
+                <div class="tb2"> 2:55</div>
+            </div>
+
+            <div class="extra-line2-buttons">
+
+                <div class="extra-circle">
+                    <img src="images/extra/circle.png">
+                </div>
+
+                <div class="extra-back">
+                    <img src="images/extra/bacr.png">
+                </div>
+
+                <div class="extra-play">
+                    <img src="images/extra/play.png">
+                </div>
+
+                <div class="extra-next">
+                    <img src="images/extra/next.png">
+                </div>
+
+                <div class="extra-shuffle">
+                    <img src="images/extra/shuffle.png">
+                </div>
+
+        </div>
+
+            <div class="extra-volume-settings">
+
+                <div class="settings-volume">
+
+                    <div class="extra-settings-volume">
+                        <img src="images/extra/volume full.png">
+                    </div>
+
+                    <div class="settings-volume-line">
+                        <img src="images/extra/volume line.png">
+                    </div>
+
+                </div>
+
+                <div class="extra-sound-settings">
+
+                    <div class="settings-text">
+                        <img src="images/extra/text.png">
+                    </div>
+
+                    <div class="settings-list">
+                        <img src="images/extra/list.png">
+                    </div>
+                    
+                    <div class="settings-board">
+                        <img src="images/extra/board.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+
+<!-- media  -->
+
+<div class="media">
+
+    <div class="my-media">
+
+        <p>Моя медиатека</p>
+
+        <div class="create">
+            <img src="images/icons/plus.png">
+            <p>Создать</p>
+        </div>
+
+    </div>
+
+    <div class="media-filter">
+
+        <div class="filter-playlist">
+            Плейлисты
+        </div>
+
+        <div class="filter-board">
+            Подкасты
+        </div>
+
+        <div class="filter-album">
+            Альбомы
+        </div>
+
+        <div class="filter-artist">
+            Исполнители
+        </div>
+
+    </div>
+
+    <div class="media-search">
+
+        <div class="media-search-place">
+            <input type="text" placeholder="  Поиск">
+            <img src="images/icons/search2.png" alt="">
+        </div>
+
+        <div class="media-search-recent">
+            <p> Недавние </p>
+            <img src="images/icons/list.png">
+        </div>
+
+    </div>
+
+    <div class="media-stack-1">
+
+        <div class="media-cover1">
+            <img src="images/icons/heart ava.png">
+        </div>
+
+        <div class="stack-info1">
+
+            <p>Любимые треки</p>
+            
+            <div class="stack-info-bottom1">
+                
+                <div class="pin1">
+                    <img src="images/icons/pin.png">
+                </div>
+
+                Плейлист • 505 треков
+            </div>
+        </div>
+    </div>
+
+    <div class="media-stack-2">
+
+        <div class="media-cover2">
+            <img src="images/covers/ночь и пиксели.jpg">
+        </div>
+
+        <div class="stack-info2">
+
+            <p>Ночь и Пиксели</p>
+            
+            <div class="stack-info-bottom2">
+                
+                <div class="pin2">
+                    <img src="images/icons/pin.png">
+                </div>
+
+                Альбом • ВПЛАНЕ
+            </div>
+        </div>
+    </div>
+
+    <div class="media-stack-3">
+        
+        <div class="media-cover3">
+            <img src="images/covers/стриптизчеллендж.jpg">
+        </div>
+
+        <div class="stack-info3">
+
+            <p>STRIPTEASE </p> <div class="challege">CHALLENGE</div>
+            
+            <div class="stack-info-bottom3">
+                
+                <div class="pin3">
+                    <img src="images/icons/pin.png">
+                </div>
+
+                Альбом • ВПЛАНЕ
+            </div>
+        </div>
+
+    </div>
+
+    <div class="media-stack-4">
+
+        <div class="media-cover4">
+            <img src="images/covers/ава.png">
+        </div>
+
+        <div class="stack-info4">
+
+            <p>ВПЛАНЕ</p>
+            
+            <div class="stack-info-bottom4">
+
+            Исполнитель
+            </div>
+        </div>
+
+    </div>
+
+    <div class="media-stack-5">
+        
+        <div class="media-cover5">
+            <img src="images/covers/аудмонаркотики.jpg">
+        </div>
+
+        <div class="stack-info5">
+
+            <p>Топ 7 Аудионаркотиков</p>
+            
+            <div class="stack-info-bottom5">
+                Альбом • ВПЛАНЕ
+            </div>
+        </div>
+    </div>
+
+    <div class="media-stack-6">
+        <div class="media-cover6">
+            <img src="images/covers/третий альбом.jpg">
+        </div>
+
+        <div class="stack-info6">
+
+            <p>Третий Альбом</p>
+            
+            <div class="stack-info-bottom6">
+                Сингл • ВПЛАНЕ
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- for you -->
+
+<div class="for-you">
+
+    <div class="for-title">
+
+        <p> Только для тебя</p>
+
+        <div class="show-all">
+            Показать все
+        </div>
+
+    </div>
+
+    <div class="for-playlists">
+
+        <div class="for1">
+
+            <img src="images/covers/Group 1.png">
+            ВПЛАНЕ, Hollywood Undead, Deuce и не...
+
+        </div>
+
+        <div class="for2">
+            <img src="images/covers/Group 2.png">
+            ВПЛАНЕ,  Falling in Reverse, Slipknot и не...
+            
+        </div>
+
+        <div class="for3">
+            <img src="images/covers/Group 3.png">
+            ВПЛАНЕ,  Linkin Park, grandson и не только
+            
+        </div>
+
+        <div class="for4">
+            <img src="images/covers/Group 4.png">
+            ВПЛАНЕ, Oxxxymiron, MORGENSHTERN и...
+            
+        </div>
+
+        <div class="for5">
+            <img src="images/covers/Group 5.png">
+            ВПЛАНЕ, Avril Lavigne, Kesha и не только
+            
+        </div>
+
+        <div class="for6">
+            <img src="images/covers/Group 6.png">
+            ВПЛАНЕ, Митя Фомин, Максим...
+            
+        </div>
+    </div>
+
+
+</div>
+
+<!-- like  -->
+
+<div class="like">
+
+    <div class="for-title">
+
+        <p> Должно понравиться</p>
+
+        <div class="show-all">
+            Показать все
+        </div>
+
+    </div>
+
+    <div class="like-list">
+
+        <div class="like1">
+            <img src="images/icons/fire.png">
+        </div>
+
+        <div class="like2">
+            <img src="images/icons/broadcast.png">
+        </div>
+
+        <div class="like3">
+            <img src="images/icons/lightning.png">
+        </div>
+
+        <div class="like4">
+            <img src="images/icons/radio.png">
+        </div>
+        
+    </div>
+
+    <div class="l-name">
+        <p>Хиты</p>
+        <p>Подкасты</p>
+        <p>Новинки</p>
+        <p>Радио</p>
+    </div>
+
+</div>
+
+
+<!-- rhythm -->
+
+<div class="rhythm">
+
+    <div class="for-title">
+        <p>В твоем ритме</p>
+    </div>
+
+    <div class="rhythm-block"></div>
+
+</div>
+
+
+<!-- footer  -->
+
+<footer class="footer">
+    <div class="footer-top">
+        <div class="footer-columns">
+            <div class="footer-column">
+                <h4>Компания</h4>
+                <ul>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Вакансии</a></li>
+                    <li><a href="#">For the Record</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Сообщества</h4>
+                <ul>
+                    <li><a href="#">Для исполнителей</a></li>
+                    <li><a href="#">Для разработчиков</a></li>
+                    <li><a href="#">Реклама</a></li>
+                    <li><a href="#">Для инвесторов</a></li>
+                    <li><a href="#">Для вендоров</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Полезные ссылки</h4>
+                <ul>
+                    <li><a href="#">Справка</a></li>
+                    <li><a href="#">Мобильное приложение</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Планы <span class="highlight">Spotify</span></h4>
+                <ul>
+                    <li><a href="#">Индивидуальная подписка Spotify Premium</a></li>
+                    <li><a href="#">Premium для двоих</a></li>
+                    <li><a href="#">Premium для семьи</a></li>
+                    <li><a href="#">Premium для студентов</a></li>
+                    <li><a href="#">Бесплатная версия Spotify</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-extras">
+            <div class="social-icons">
+                <a href="#"><img src="images/icons/inst.png" alt="Instagram"></a>
+                <a href="#"><img src="images/icons/x.png" alt="X"></a>
+                <a href="#"><img src="images/icons/face.png" alt="Facebook"></a>
+            </div>
+            <div class="language-theme-wrapper">
+                <div class="language-selector">
+                    <img src="images/icons/language.png" alt="Globe">
+                    <span>Русский</span>
+                </div>
+                <div id="theme-toggle">
+                    <img id="theme-icon" src="images/icons/moon.png" alt="Theme Icon">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-bottom">
+        <div class="footer-links">
+            <a href="#">Юридическая информация</a>
+            <a href="#">Центр безопасности и конфиденциальности</a>
+            <a href="#">Политика конфиденциальности</a>
+            <a href="#">Настройки файлов cookie</a>
+            <a href="#">О рекламе</a>
+            <a href="#">Специальные возможности</a>
+        </div>
+        <div class="copyright">
+            © 2025 Spotify AB
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
